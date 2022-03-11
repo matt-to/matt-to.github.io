@@ -195,3 +195,56 @@ font-size: 14px;
 .sub {
    margin:25px;
 }
+/*
+.grid::before {
+   font: 800 40px system-ui;
+   content: counter(count);
+   animation: counter 2s;
+ }
+ @keyframes counter {
+   0% {
+     counter-increment: count 0;
+   }
+   10% {
+     counter-increment: count 1;
+   }
+   20% {
+     counter-increment: count 2;
+   }
+   30% {
+     counter-increment: count 3;
+   }
+   40% {
+     counter-increment: count 4;
+   }
+   50% {
+     counter-increment: count 5;
+   }
+   60% {
+     counter-increment: count 6;
+   }
+   70% {
+     counter-increment: count 7;
+   }
+   80% {
+     counter-increment: count 8;
+   }
+   90% {
+     counter-increment: count 9;
+   }
+   100% {
+     counter-increment: count 10;
+   }
+ }
+ */
+ .grid {
+   display:inline-block;
+   margin:5px 20px;
+   padding:10px;
+   border:3px solid black;
+   font-size: large;  
+ }
+.grid p {
+   font-size: x-large;
+   font-weight: bold;
+}
