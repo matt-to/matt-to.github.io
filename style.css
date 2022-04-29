@@ -1,16 +1,33 @@
 @charset "utf-8";
 
-
+@font-face {
+   font-family: 'Open Sans';
+   font-style: normal;
+   font-weight: 300;
+   src: local('Open Sans Light'), local('OpenSans-Light'), url(https://fonts.gstatic.com/s/opensans/v13/DXI1ORHCpsQm3Vp6mXoaTXhCUOGz7vYGh680lGh-uXM.woff) format('woff');
+ }
+ @font-face {
+   font-family: 'Open Sans';
+   font-style: normal;
+   font-weight: 400;
+   src: local('Open Sans'), local('OpenSans'), url(https://fonts.gstatic.com/s/opensans/v13/cJZKeOuBrn4kERxqtaUH3T8E0i7KZn-EPnyo3HZu7kw.woff) format('woff');
+ }
+ @font-face {
+   font-family: 'Open Sans';
+   font-style: normal;
+   font-weight: 600;
+   src: local('Open Sans Semibold'), local('OpenSans-Semibold'), url(https://fonts.gstatic.com/s/opensans/v13/MTP_ySUJH_bn48VBG8sNSnhCUOGz7vYGh680lGh-uXM.woff) format('woff');
+ }
 
 body { 
-   font-family: Arial, sans-serif;
-   background-color: #CBF5F1;
+   font-family:  'Open Sans', Georgia, Times, 'Times New Roman', serif, sans-serif;
+   background-color: #caf0f8;
    color: black;
-   font-size: 1.1em;
+   font-size: 1.3em;
    padding: 0;
    margin: 0;
-   
 } 
+
 html {
    scroll-behavior: smooth;
 }
@@ -30,21 +47,22 @@ h1, h2, h3 {
 }
 
 h1 {
-    color: #43743D;
+    color: #03045e;
     font-size: 1.7em;
 }
 
 h2 {
-   color: #000000;
-   font-size: 1.2em;
+   color: #023e8a;
+   font-size: 1.5em;
    border-bottom-width: 1px;
    border-bottom-style: solid;
    border-bottom-color: #889A9C;
 }
 
 h3 {
-    color: #889A9C;
-    font-size: 1em;
+    color: #0077b6;
+    font-size: 1.2em;
+    font-weight: normal;
 }
 
 /* hyperlink rules */
@@ -52,16 +70,16 @@ a {
    color: #000000;
 }
 a:link {
-   color: #0258da;
+   color: #03045e;
 }
 a:visited {
-   color: #0d00c5;
+   color: #03045e;
 }
 a:hover {
-   color: #80B939;
+   color: #0077b6;
 }
 a:active {
-   color: #80B939;
+   color: #0077b6;
 }
 /* Containers */
 .main_content {
@@ -153,7 +171,7 @@ font-size: 14px;
    font-weight: bold;
    padding-top: 10px;
    padding-bottom: 10px;
-   background-color: navy;
+   background-color: #03045e;
    overflow: hidden;
   position: fixed; /* Set the navbar to fixed position */
   top: 0; /* Position the navbar at the top of the page */
@@ -173,7 +191,7 @@ font-size: 14px;
    padding-bottom: 10px;
 }
 .horizon a {
-   color:#e6e953;
+   color:#fcfba1;
    text-decoration: none;
    cursor: pointer;
  /*  border-left-width: 20px;
@@ -182,15 +200,15 @@ font-size: 14px;
    padding-left: 20px;
 }
 .horizon a:hover {
-   color: #c0ad00;
+   color: #fcfba1;
    text-decoration: none;
    border-bottom-width: 1px;
    border-bottom-style: solid;
    /*border-bottom-color: #AD9676;*/
    border-left-width: 1px;
    border-left-style: solid;
-   border-left-color: #AD9676;
-   padding-left: 8px;
+   border-left-color: #fcfba1;
+   padding-left: 18px;
 }
 .sub {
    margin:25px;
@@ -247,4 +265,20 @@ font-size: 14px;
 .grid p {
    font-size: x-large;
    font-weight: bold;
+}
+.grid a {
+   color: #000000;
+}
+.grid a:link {
+   color: #000000;
+   text-decoration: none;
+}
+.grid a:visited {
+   color: #000000;
+}
+.grid a:hover {
+   color: #80B939;
+}
+.grid a:active {
+   color: #000000;
 }
