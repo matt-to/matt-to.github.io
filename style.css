@@ -52,7 +52,7 @@ h1 {
 }
 
 h2 {
-   color: #023e8a;
+   color: #03045e;
    font-size: 1.5em;
    border-bottom-width: 1px;
    border-bottom-style: solid;
@@ -60,7 +60,7 @@ h2 {
 }
 
 h3 {
-    color: #0077b6;
+    color: #023e8a;
     font-size: 1.2em;
     font-weight: normal;
 }
@@ -130,7 +130,7 @@ a:active {
    font-size: 11px;
    text-align: center;
    color: #889A9C;
-   background-color: white;
+   background-color: #caf0f8;
    padding: 10px;
 }
 .banner {
@@ -191,7 +191,7 @@ font-size: 14px;
    padding-bottom: 10px;
 }
 .horizon a {
-   color:#fcfba1;
+   color:white;
    text-decoration: none;
    cursor: pointer;
  /*  border-left-width: 20px;
@@ -200,14 +200,13 @@ font-size: 14px;
    padding-left: 20px;
 }
 .horizon a:hover {
-   color: #fcfba1;
    text-decoration: none;
    border-bottom-width: 1px;
    border-bottom-style: solid;
    /*border-bottom-color: #AD9676;*/
    border-left-width: 1px;
    border-left-style: solid;
-   border-left-color: #fcfba1;
+   border-left-color: white;
    padding-left: 18px;
 }
 .sub {
