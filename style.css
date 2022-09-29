@@ -127,7 +127,7 @@ a:active {
 .footer {
 	clear: both;
 	margin: 0px;
-   font-size: 12px;
+   font-size: .9em;
    text-align: center;
    color: #889A9C;
    background-color: #caf0f8;
