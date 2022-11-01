@@ -258,26 +258,32 @@ font-size: 14px;
    display:inline-block;
    margin:5px 20px;
    padding:10px;
-   border:3px solid black;
+   border:3px solid #03045e;
    font-size: large;  
+   background-color: white;
+
  }
 .grid p {
    font-size: x-large;
    font-weight: bold;
+   color: #03045e;
 }
 .grid a {
-   color: #000000;
+   color: #03045e;
 }
 .grid a:link {
-   color: #000000;
+   color: #03045e;
    text-decoration: none;
 }
 .grid a:visited {
-   color: #000000;
+   color: #03045e;
 }
 .grid a:hover {
-   color: #80B939;
+   color: #0077b6;
+   border-bottom-width: 1px;
+   border-bottom-style: solid;
+   /*border-bottom-color: #AD9676;*/
 }
 .grid a:active {
-   color: #000000;
+   color: #03045e;
 }
